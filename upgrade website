@@ -1,1 +1,22 @@
-
+<!DOCTYPE html> <!--dit is de homepage van mijn site-->
+<html> <!--dit is het html-element--> 
+    <head>
+        <title>Binair stelsel</title>
+        <link rel="stylesheet" href="opmaak.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <h1 style="background-color:#f3d1e5">binairestelsel</h1>
+   
+    <ul>
+        <li><a href="index.html">Inleiding</a></li>
+        <li><a href="bineairstelsel.html">uitleg binaire stelsel</a></li>
+        <li><a href="kleurmodellen.html">kleurmodellen</a></li>
+        <li><a href="bitmap.html">uitleg bitmap</a></li>
+     </ul>
+    
+    
+    <article> 
+    <h3>Binair</h3>
+    <p>In sommige contexten bevat de term bitmap één bit per pixel, terwijl pixmap wordt gebruikt voor afbeeldingen met meerdere bits per pixel. De term bitmap komt uit de studie van computerprogrammering, wat betekent dat het slechts een kaart van bits is. Dus het wordt in kaart gebracht in allemaal reeksen van  bits. Nu, samen met pixmap, verwijst het naar het vergelijkbare concept van een ruimtelijk in kaart gebrachte reeks pixels.
+        De binaire stelsel bestaat uit symbolen, ook wel een bit (binary digit) genoemd. Dat bestaat uit de cijfers 0 en 1.</p>
