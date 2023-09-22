@@ -1,7 +1,10 @@
 
-/*menu gemaakt*/
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 div.scrollmenu {
-  background-color: #877b86;
+  background-color: #333;
   overflow: auto;
   white-space: nowrap;
 }
@@ -15,35 +18,22 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #877b86;
-  background-color: ;
+  background-color: #777;
 }
+</style>
+</head>
+<body>
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#news">inleiding</a>
+  <a href="#contact">computerarchitectuur</a>
+  <a href="#about">onderzoek databases</a>
   
-  /*bolletjes weg gehaald*/
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* de kleur is veranderd*/
-  li a:hover {
-    background-color: #f3d1e5;
-    color: rgb(214, 116, 132);
-  }
+</div>
 
-  h2, h3 {
-    color: black
+<h2>Homepage</h2>
+<p>How does a computer work?</p>
 
-  }
-  /* de tekstgrootte veranderd*/
-  body {
-    font-size: medium;
-    background-color: #f3d1e5;
-  }
-
-  P {
-    color: black;
-
-  }
+</body>
+</html>
