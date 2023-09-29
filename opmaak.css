@@ -1,23 +1,67 @@
 
 
-div.scrollmenu {
-  background-color: #777;
-  overflow: auto;
-  white-space: nowrap;
-}
 
-div.scrollmenu a {
-  display: inline-block;
-  color: #ffffff(255, 255, 255);
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #777;
   text-align: center;
-  padding: 14px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-div.scrollmenu a:hover {
-  background-color: #777;
+/* Style the dropdown */
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
+/* Style the dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  color: #777;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+/* Change background color on hover for both links and dropdown buttons */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #c9c6c6;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c9c6c6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: 777;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change background color on hover for dropdown links */
+.dropdown-content a:hover {
+  background-color: #fba0d5;
+}
+
+/* Display the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+  display: grid;
+}
 
 
 
